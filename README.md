@@ -3,7 +3,7 @@
 
 ## 1차
 
-[typescript를 쓰는 이유]
+[typescript를 쓰는 이유](https://github.com/learn-typescript-study/ys_study/blob/main/why-ts.md)
 
 ## 2차
 
