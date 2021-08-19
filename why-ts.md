@@ -1,6 +1,7 @@
 # Typescript
 
 _JS에 type을 부여한 언어_
+
 브라우저에서 실행하려면 컴파일이 필요하다
 
 # Typescript를 사용했을때의 장점
