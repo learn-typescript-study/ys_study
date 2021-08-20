@@ -12,7 +12,8 @@
 ## 2차
 
 [타입스크립트 기초 - 변수 타입 정의하기](https://github.com/learn-typescript-study/ys_study/blob/main/data_type.md)
-[타입스크립트 기초 - 함수  정의하기]
+
+[타입스크립트 기초 - 함수  정의하기](https://github.com/learn-typescript-study/ys_study/blob/main/function_type.md)
 
 ## 3주차
 
