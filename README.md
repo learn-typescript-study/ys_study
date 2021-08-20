@@ -3,13 +3,13 @@
 [실습 코드](https://github.com/yunseo323/TS_study)
 
 
-## 1차
+## 1차 (8/18)
 
 - [typescript를 쓰는 이유](https://github.com/learn-typescript-study/ys_study/blob/main/why-ts.md)
 
 - [환경 설정](https://github.com/learn-typescript-study/ys_study/blob/main/settings.md)
 
-## 2차
+## 2차 (8/22)
 
 - [타입스크립트 기초 - 변수 타입 정의하기](https://github.com/learn-typescript-study/ys_study/blob/main/data_type.md)
 
@@ -25,6 +25,6 @@
 
 - [이넘]
 
-## 3주차
+## 3차
 
-## 4주차
+## 4차
