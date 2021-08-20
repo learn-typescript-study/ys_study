@@ -15,6 +15,16 @@
 
 - [타입스크립트 기초 - 함수  정의하기](https://github.com/learn-typescript-study/ys_study/blob/main/function_type.md)
 
+- [첫번째 프로젝트-할일 관리 애플리케이션]
+
+- [인터페이스]
+
+- [타입 별칭]
+
+- [연산자를 이용한 타입 정의]
+
+- [이넘]
+
 ## 3주차
 
 ## 4주차
