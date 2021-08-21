@@ -17,7 +17,7 @@
 
 - [첫번째 프로젝트-할일 관리 애플리케이션](https://github.com/yunseo323/TS_study/tree/main/quiz/1_todo) : 실습코드로 정리
 
-- [인터페이스]
+- [인터페이스](https://github.com/learn-typescript-study/ys_study/blob/main/interface.md)
 
 - [타입 별칭]
 
