@@ -15,7 +15,7 @@
 
 - [타입스크립트 기초 - 함수  정의하기](https://github.com/learn-typescript-study/ys_study/blob/main/function_type.md)
 
-- [첫번째 프로젝트-할일 관리 애플리케이션]
+- [첫번째 프로젝트-할일 관리 애플리케이션](https://github.com/yunseo323/TS_study/tree/main/quiz/1_todo) : 실습코드로 정리
 
 - [인터페이스]
 
