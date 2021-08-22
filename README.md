@@ -19,13 +19,13 @@
 
 - [인터페이스](https://github.com/learn-typescript-study/ys_study/blob/main/interface.md)
 
-- [타입 별칭]
+- [타입 별칭](https://github.com/learn-typescript-study/ys_study/blob/main/type_aliases.md)
 
-- [연산자를 이용한 타입 정의]
+- [연산자를 이용한 타입 정의](https://github.com/learn-typescript-study/ys_study/blob/main/union_type.md)
 
-- [이넘]
+- [이넘](https://github.com/learn-typescript-study/ys_study/blob/main/enum.md)
 
-- [클래스]
+- [클래스](https://github.com/learn-typescript-study/ys_study/blob/main/class.md)
 
 ## 3차
 
