@@ -32,6 +32,8 @@ enum Shoes {
 
 숫자가 아닌 문자 값을 줄 수 있다.
 
+문자형 이넘은 이넘 값 전부 다 특정 문자 또는 다른 이넘 값으로 초기화 해야함.
+
 ```
 enum Shoes_ {
     Nike="나이키", //(enum member)Shoes.Nike = 0
@@ -60,3 +62,8 @@ function askQuestion(answer: Answer){
 askQuestion(Answer.Yes); //correct
 askQuestion("yes") //error : enum 에 지정되어 있는 Answer 타입을 넘겨야 함
 ```
+
+## 이넘의 특징
+- 복합 이넘(숫자형+문자형)이 가능하지만, 권고하지 않음
+- 이넘은 런타임시에 객체로 존재한다
+- 숫자형 이넘에서는 리버스 매핑이 가능하다. (이넘의 키(key)로 값(value)를 얻을 수 있고 값(value)로 키(key)를 얻을 수 있음)
