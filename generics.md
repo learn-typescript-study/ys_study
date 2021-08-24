@@ -72,10 +72,71 @@ const login = logText<boolean>(true); //boolean 변경 가능
 
 ```
 interface Dropdown<T>{
-    value: T; 
+    value: T; // 넘기는 값이 어떤가에 따라 value의 타입이 바뀜
     selected: boolean;
 }
 
-const obj: Dropdown<number> = {value: 10, selected: true}; 
-const obj_: Dropdown<string> = {value:"hello",selected: false};
+const obj: Dropdown<number> = {value: 10, selected: true}; //value: number
+const obj_: Dropdown<string> = {value:"hello",selected: false}; //value: string
 ```
+
+# 제네릭의 타입 제한
+: 제네릭 함수에 어느 정도 타입 힌트를 줄 수 있음 (?!)
+
+```
+function logText<T>(text: T): T {
+  console.log(text.length); // Error: T doesn't have .length
+  return text;
+}
+```
+-> 위 코드에서 text에 length가 존재한다는 단서가 없기 때문에 에러가 발생함
+
+```
+function logText<T>(text: T[]): T[] {
+  console.log(text.length); // 제네릭 타입이 배열이기 때문에 `length`를 허용합니다.
+  return text;
+}
+```
+-> T[]를 사용해 배열형태의 T를 받는다는 힌트를 남김
+
+
+### 정의된 타입으로 타입을 제한하기
+: extends 키워드 이용
+
+```
+interface LengthType {
+    length: number;
+}
+
+function logTextLength_<T extends LengthType>(text: T): T{
+    text.length;
+    return text;
+}
+
+logTextLength_("hello");
+```
+
+### keyof로 제네릭의 타입 제한
+: 지정한 key 값들만 받을 수 있도록 제약함
+
+```
+
+interface ShoppingItem {
+    name: string;
+    price: number;
+    stock: number;
+}
+
+//interface ShoppingItem 안의 key값들만 받을 수 있도록 제약 가능
+
+function getShoppingItemOption<T extends keyof ShoppingItem>(itemOption: T):T {
+    return itemOption;
+}
+
+// getShoppingItemOption(10);
+// getShoppingItemOption<string>('a');
+
+getShoppingItemOption("name");
+
+```
+
