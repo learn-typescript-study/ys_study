@@ -29,9 +29,9 @@
 
 ## 3차 (8/25)
 
-- [제네릭]
+- [제네릭](https://github.com/learn-typescript-study/ys_study/blob/main/generics.md)
 
-- [제네릭 실전 예제]
+- [제네릭 실전 예제](https://github.com/yunseo323/TS_study/blob/main/class-note/generic_code/dropdown-generic.ts)
 
 - [두번째 프로젝트]
 
