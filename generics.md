@@ -6,6 +6,8 @@
 
 -> 타입을 함수의 파라미터처럼 사용
 
+-> 함수 사용 시 타입 추론이 됨
+
 **제네릭 정의**
 
 ```
@@ -17,6 +19,7 @@ function logText<T>(text: T):T {
 
 logText("hi"); //function logText<"hi">(text: "hi"):"hi"
 logText<string>("hi"); //function logText<string>(text: string):string
+//제네릭을 이용해 타입 추론이 됨
 
 ```
 
@@ -48,4 +51,31 @@ function logText(text: string|number) {
 }  
 
 const word = logText('a'); //word의 type은 여전히 string|number
+```
+
+# 제네릭 실전 예제 및 타입 추론에서의 이점
+
+```
+function logText<T>(text: T): T {
+    console.log(text);
+    return text;
+}
+
+const str = logText<string>('abc');
+str.split(''); //string api 사용 가능
+const login = logText<boolean>(true); //boolean 변경 가능
+
+
+```
+
+# 인터페이스에서 제네릭을 선언하는 법
+
+```
+interface Dropdown<T>{
+    value: T; 
+    selected: boolean;
+}
+
+const obj: Dropdown<number> = {value: 10, selected: true}; 
+const obj_: Dropdown<string> = {value:"hello",selected: false};
 ```
