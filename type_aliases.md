@@ -13,8 +13,6 @@ type Developer = {
   name: string;
   skill: string;
 }
-
-
 ```
 
 
