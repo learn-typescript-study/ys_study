@@ -21,7 +21,7 @@
 
 - [타입 별칭](https://github.com/learn-typescript-study/ys_study/blob/main/type_aliases.md)
 
-- [연산자를 이용한 타입 정의](https://github.com/learn-typescript-study/ys_study/blob/main/union_type.md)
+- [연산자를 이용한 타입 정의: Union, Intersection](https://github.com/learn-typescript-study/ys_study/blob/main/union_type.md)
 
 - [이넘](https://github.com/learn-typescript-study/ys_study/blob/main/enum.md)
 
