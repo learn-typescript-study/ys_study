@@ -2,7 +2,7 @@
 
 둘 이상의 타입을 '|' 연산자를 통해 지정할 수 있음
 
-```
+```TS
 function logMessage(value: string | number){ //value에 string 아니면 number 가 들어감
     console.log(value);
 }
@@ -17,7 +17,7 @@ any를 쓰지 않고 유니온 타입을 쓰게 될때의 좋은 점?
 
 -> 즉, 타입 가드가 가능하다. (타입가드: 특정 타입으로 타입의 범위를 좁혀나가는, 필터링 하는 과정)
 
-```
+```TS
 function logMessage(value: string | number){
     if (typeof value === 'number'){
         value.toLocaleString();    //이 시점에서 value는 number로 읽힘. number 관련 api 사용 가능
@@ -43,7 +43,7 @@ function logMessage(value: string | number){
 
 function에서 넘기는 인자를 비교하자면, 유니온 타입은 넘기는 타입에 대해 선택지가 생기지만, 인터섹션 타입은 타입의 합집합으로 넘겨야 한다
 
-```
+```TS
 interface Developer_ {
     name: string;
     skill: string;
