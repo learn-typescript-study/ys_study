@@ -2,7 +2,7 @@
 
 - 함수의 파라미터와 반환값에 타입을 정의할 수 있음
 
-```
+```TS
 function addNumber(a: number,b:number): number{
     return a+b;
 }
@@ -10,7 +10,7 @@ function addNumber(a: number,b:number): number{
 
 - 파라미터를 제한함
 
-```
+```TSTS
 function addNumber(a: number,b:number): number{
     return a+b;
 }
@@ -23,7 +23,7 @@ addNumber(10,20,30,40) //파라미터를 추가로 넣으면 Error 띄워줌 : 2
 
 특정 파라미터를 선택적으로 사용하고 싶을 때에 '?' 를 붙임
 
-```
+```TS
 function log(a: string, b?: string)
 
 log("hi") //ok
