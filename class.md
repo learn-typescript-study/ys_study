@@ -5,7 +5,7 @@ js는 프로토타입 기반 언어이다
 
 -> Built-in Javascript API 또는 Javascript Native API
 
-```
+```TS
 let user = {name: 'capt', age: 100};
 >undefined
 
@@ -29,7 +29,7 @@ JS에서 클래스는 기존의 생성자 함수와 프로토타입으로 구현
 
 -> 프로토타입 기반이 그대로 유지됨
 
-```
+```TS
 function Person(name,age){
     this.name=name;
     this.age=age;
@@ -49,7 +49,7 @@ let capt = new Person('captain',100); //function 구현, class 구현 동일
 
 ## typescript 에서의 클래스 적용
 
-```
+```TS
 class Person_ {
     public name: string; //class 상단에 타입 정의
     private age: number;
