@@ -1,6 +1,6 @@
 # String, Number, Bollean
 
-```
+```TS
 let str: string = "hi";
 let num: number = 10;
 let isLoggedIn: boolean = false;
