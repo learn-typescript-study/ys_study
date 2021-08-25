@@ -8,14 +8,14 @@ let isLoggedIn: boolean = false;
 
 # Array
 
-```
+```TS
 let arr: number[] = [1,2,3];
 let arr: Array<number> = [1,2,3]; // 제네릭 사용
 ```
 
 # Object
 
-```
+```TS
 let obj: object={};
 
 let person: {name:string, age:number} = { //객체의 property에 자료형 지정 가능
@@ -30,7 +30,7 @@ let person: {name:string, age:number} = { //객체의 property에 자료형 지�
 
 정의하지 않은 타입이나 인덱스로 접근할 수 없음
 
-```
+```TS
 let arr: [string,number] = ["hi", 10];
 ```
 
@@ -40,7 +40,7 @@ let arr: [string,number] = ["hi", 10];
 
 인덱스 번호로 접근 가능, 이넘의 인덱스를 변경 가능
 
-```
+```TS
 enum Avengers { Capt, IronMan, Thor }
 let hero: Avengers = Avengers.Capt;
 let hero: Avengers = Avengers[0]; // 인덱스로 점근 가능
@@ -57,7 +57,7 @@ let hero: Avengers = Avengers[4]; // Thor
 - void를 사용하면 변수에는 undefined와 null을 할당하고, 함수에는 반환값을 설정할 수 없음
 - never: 함수 끝에 절대 도달하지 않음
 
-```
+```TS
 let arr: any = ['a', 2, true];
 
 let unuseful: void = undefined;
