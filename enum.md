@@ -8,7 +8,7 @@
 초기값부터 차례대로 1씩 증가해 값을 가진다.
 초기값이 주어지지 않으면 기본으로 0이 할당된다.
 
-```
+```TS
 enum Shoes {
     Nike, //(enum member)Shoes.Nike = 0
     Adidas, //1
@@ -34,7 +34,7 @@ enum Shoes {
 
 문자형 이넘은 이넘 값 전부 다 특정 문자 또는 다른 이넘 값으로 초기화 해야함.
 
-```
+```TS
 enum Shoes_ {
     Nike="나이키", //(enum member)Shoes.Nike = 0
     Adidas="아디다스"
@@ -50,7 +50,7 @@ console.log(myShoes_); // "나이키"
 이넘에서 제공하는 값만 넘길/받을 수 있도록 지정할 수 있다.
 -> 드롭다운 등의 목록이 필요한 형태에서 활용할 수 있음
 
-```
+```TS
 enum Answer {
     Yes = 'Y',
     No = 'N'
