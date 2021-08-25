@@ -7,7 +7,7 @@
 
 1. 객체의 스펙 정의
 
-```
+```TS
 interface Todo { //인터페이스로 객체 스펙 정의
   id: number; 
   title: string; 
@@ -26,7 +26,7 @@ function fetchTodoItems(): Array<Todo> { //Todo[] 로 사용 가능
 
 2. 함수의 스펙 정의
 
-```
+```TS
 // 함수의 인자 정의
 function getUser(user: User){
     console.log(user);
@@ -46,7 +46,7 @@ sum = function(num1, num2){ //num1과 num2, 리턴값이 모두 자동으로 num
 
 3. 인덱싱 방식 정의
 
-```
+```TS
 interface StringArray {
     [index:number]: string; //index는 숫자로 접근하고, 자료는 string이다
 }
@@ -57,7 +57,7 @@ arr[0] = "hi"; // 숫자라면 ERROR 발생
 
 4. 딕셔너리 패턴
 
-```
+```TS
 interface StringRegexDictionary {
     [key: string]: RegExp //정규표현식
 }
@@ -76,7 +76,7 @@ Object.keys(obj).forEach(function(value){ //value가 자동으로 string으로 �
 
 5. 인터페이스 확장
 
-```
+```TS
 interface Person {
     name: string;
     age: number;
