@@ -3,7 +3,7 @@
 
 ## 타입 별칭 사용법
 
-```
+```TS
 // 1. 하나의 type에 사용 가능 (예시: string 타입을 Myname이라 지정 가능) 
 type MyName = string;
 const name: MyName = 'yun';
@@ -18,7 +18,7 @@ type Developer = {
 
 # 타입 별칭과 인터페이스의 차이점
 
-```
+```TS
 interface Person {
     name: string;
     age: number;
