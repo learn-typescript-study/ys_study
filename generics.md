@@ -81,7 +81,7 @@ const obj_: Dropdown<string> = {value:"hello",selected: false}; //value: string
 ```
 
 # 제네릭의 타입 제한
-: 제네릭 함수에 어느 정도 타입 힌트를 줄 수 있음 (?!)
+: 제네릭 함수에 어느 정도 타입 힌트를 줄 수 있음
 
 ```
 function logText<T>(text: T): T {
