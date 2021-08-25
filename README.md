@@ -33,7 +33,7 @@
 
 - [제네릭 실전 예제](https://github.com/yunseo323/TS_study/blob/main/class-note/generic_code/dropdown-generic.ts)
 
-- [두번째 프로젝트]
+- [두번째 프로젝트](https://github.com/yunseo323/TS_study/tree/main/quiz/2_address-book)
 
 
 ## 4차 (8/29)
