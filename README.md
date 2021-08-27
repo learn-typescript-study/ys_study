@@ -38,7 +38,7 @@
 
 ## 4차 (8/29)
 
-- [타입 추론]
+- [타입 추론](https://github.com/yunseo323/TS_study/blob/main/class-note/9_type-inference.ts)
 
 - [타입 단언]
 
