@@ -80,3 +80,33 @@ askSomeone({name: "yun", age: 22}) //Persion 타입 선택
 ask_Someone({name:"yun", skill:"ts", age: 22}) // 두 타입을 합친, 양쪽의 property를 다 넘겨야 함
 
 ```
+
+# 타입 가드를 이용한 유니온 예제
+```TS
+interface Developer {
+    name: string;
+    skill: string;
+}
+
+interface Person_ {
+    name: string;
+    age: number;
+}
+
+function isDeveloper(target: Developer | Person_): target is Developer {
+    return (target as Developer).skill !== undefined; //true,false 반환
+}
+
+function introduce(): Developer | Person_ {
+    return {name: "tony",age: 33, skill: "ts"}; //속성을 모두 넘길수 있음
+}
+
+let tony = introduce();
+
+if (isDeveloper(tony)){
+    console.log(tony.skill);
+}else{
+    console.log(tony.age);
+}
+```
+
