@@ -1,6 +1,6 @@
 인프런 캡틴 판교님의 타입스크립트 강의를 수강하며 배운점을 기록한다.
 
-[실습 코드](https://github.com/yunseo323/TS_study)
+[실습 코드](https://github.com/yunseo323/TS_study/tree/main/basic)
 
 
 ## 1차 (8/18)
