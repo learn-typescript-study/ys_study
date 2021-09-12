@@ -31,18 +31,18 @@
 
 - [제네릭](https://github.com/learn-typescript-study/ys_study/blob/main/generics.md)
 
-- [제네릭 실전 예제](https://github.com/yunseo323/TS_study/blob/main/class-note/generic_code/dropdown-generic.ts)
+- [제네릭 실전 예제](https://github.com/yunseo323/TS_study/blob/main/basic/class-note/8_generics.ts)
 
-- [두번째 프로젝트](https://github.com/yunseo323/TS_study/tree/main/quiz/2_address-book)
+- [두번째 프로젝트](https://github.com/yunseo323/TS_study/tree/main/basic/quiz/2_address-book)
 
 
 ## 4차 (8/29)
 
-- [타입 추론](https://github.com/yunseo323/TS_study/blob/main/class-note/type-inference.ts)
+- [타입 추론](https://github.com/yunseo323/TS_study/blob/main/basic/class-note/9_type-inference.ts)
 
-- [타입 단언](https://github.com/yunseo323/TS_study/blob/main/class-note/type-assertion.ts)
+- [타입 단언](https://github.com/yunseo323/TS_study/blob/main/basic/class-note/10_type-assertion.ts)
 
-- [타입 가드](https://github.com/yunseo323/TS_study/blob/main/class-note/type-guard.ts)
+- [타입 가드](https://github.com/yunseo323/TS_study/blob/main/basic/class-note/11_type-guard.ts)
 
 - [타입 호환](https://github.com/learn-typescript-study/ys_study/blob/main/type_compatibility.md)
 
