@@ -38,11 +38,11 @@
 
 ## 4차 (8/29)
 
-- [타입 추론](https://github.com/yunseo323/TS_study/blob/main/class-note/9_type-inference.ts)
+- [타입 추론](https://github.com/yunseo323/TS_study/blob/main/class-note/type-inference.ts)
 
-- [타입 단언](https://github.com/yunseo323/TS_study/blob/main/class-note/10_type-assertion.ts)
+- [타입 단언](https://github.com/yunseo323/TS_study/blob/main/class-note/type-assertion.ts)
 
-- [타입 가드](https://github.com/yunseo323/TS_study/blob/main/class-note/11_type-guard.ts)
+- [타입 가드](https://github.com/yunseo323/TS_study/blob/main/class-note/type-guard.ts)
 
 - [타입 호환](https://github.com/learn-typescript-study/ys_study/blob/main/type_compatibility.md)
 
